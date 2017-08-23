@@ -4,6 +4,7 @@ html {
 }
 
 .navbar {
+  background-color: #6D76A6 !important;
   margin-bottom: 20px;
 }
 
@@ -11,6 +12,29 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   padding-bottom: 20px;
+}
+
+.btn-secondary, .btn-success {
+  background-color: #FF8B00 !important;
+  border-color: #FF8b00;    
+}
+
+.btn-secondary:hover, .btn-success:hover {
+  border-color: #FF8B00 !important;
+}
+
+/* changing  primary collor */ 
+.btn-primary {
+  background-color: #6D76A6 !important;
+  border-color: #6D76A6;
+}
+
+.btn-primary:hover {
+  border-color: #6D76A6 !important;
+}
+
+.progress-bar {
+  background-color: #6D76A6 !important;
 }
 
 .footer {
